@@ -67,6 +67,7 @@ const getNoteByIdHandler = (request, h) => {
  });
 
  response.code(404);
+ return response;
 };
 
 const editNoteByIdHandler = (request, h) => {
